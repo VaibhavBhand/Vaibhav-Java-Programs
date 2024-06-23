@@ -1,4 +1,4 @@
-package string_functions;
+package array_programs;
 
 import java.util.Arrays;
 
@@ -12,7 +12,7 @@ public class Anagram_Problem
 		
 		if(a.length()!=b.length())
 		{
-			System.out.println("Given string are not anagram to each other");
+			System.out.println("Given strings are not anagram to each other");
 		}
 		else
 		{

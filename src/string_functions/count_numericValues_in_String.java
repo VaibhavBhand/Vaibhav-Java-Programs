@@ -14,8 +14,7 @@ public class count_numericValues_in_String
 		
 		for(int i=0; i<c1.length;i++)
 			{
-				boolean ans = Character.isDigit(c1[i]);
-				if(ans==true)
+				if(Character.isDigit(c1[i]))
 				{
 					count_number++;
 				}
